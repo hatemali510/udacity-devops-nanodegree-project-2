@@ -70,7 +70,6 @@ Resources:
           aws s3 cp s3://hatem-site-bucket/mycv_website.zip .
           unzip -o mycv_website.zip
       ImageId: ami-0b152cfd354c4c7a4 
-      KeyName: project-ins-key
       SecurityGroups: 
         - !Ref WebServerSecGroup
       InstanceType: t3.micro
